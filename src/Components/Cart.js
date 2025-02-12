@@ -5,8 +5,8 @@ function Cart() {
 	const {cart, removeFromCart, clearCart} = useCart();
 
 	return(<div id='cart'>
-		<h2>Your Cart</h2>
-		{cart.length === 0 ? (<p>Cart is empty</p>)
+		<h2 style={{color : "black"}}>Your Cart</h2>
+		{cart.length === 0 ? (<p style={{color : "black"}}>Cart is empty</p>)
 		: (<>
 		{cart.map((item) => (
 			<div id='cart-item' key={item.id}>
