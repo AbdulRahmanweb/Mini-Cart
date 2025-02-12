@@ -7,7 +7,7 @@ function Navbar() {
 	return(<div>
 		<nav id='navbar'>
 			<h1>Shopping Cart</h1>
-			<p style={{padding : "5px"}}>Items in Cart: {cart.reduce((total, item) => total + item.quantity, 0)}</p>
+			<p style={{paddingTop : "15px"}}>Items in Cart: {cart.reduce((total, item) => total + item.quantity, 0)}</p>
 		</nav>
 	</div>);
 }

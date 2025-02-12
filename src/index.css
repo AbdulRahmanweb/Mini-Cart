@@ -10,14 +10,14 @@ body {
   text-align: center;
 }
 #navbar {
-  padding: 1rem;
+  padding: 0.5rem;
   background: #007bff;
 }
 #product-list, #cart {
-  margin: 15px 5px;
+  margin: 10px 2px;
 }
 #product {
-  width: 132px;
+  width: 115px;
   height: auto;
   border: 1px solid #ddd;
   padding: 10px;
