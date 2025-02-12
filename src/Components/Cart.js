@@ -13,7 +13,7 @@ function Cart() {
 				<h4>{item.name}</h4> <p style={{fontSize : "0.7rem", padding : "2px"}}>Price: Rs{item.price}</p> <p style={{fontSize : "0.6rem"}}>Quantity:{item.quantity}</p>
 				<button onClick={() => removeFromCart(item.id)}>Remove</button>
 			</div>))}
-			<h3 style={{padding : "2px"}}>Total: Rs{cart.reduce((total, item) => total + item.price * item.quantity, 0)}</h3>
+			<h3 style={{padding : "2px", color : "black"}}>Total: Rs{cart.reduce((total, item) => total + item.price * item.quantity, 0)}</h3>
 			<button style={{backgroundColor : "rgb(167, 40, 40)", color : "white"}} onClick={() => clearCart()}>Clear Cart</button>
 		</>)}
 	</div>)

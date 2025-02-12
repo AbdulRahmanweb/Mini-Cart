@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #282c34;
+  background-color: white;
   color: white;
   font-family: sans-serif;
   text-align: center;
@@ -12,14 +12,16 @@ body {
 #navbar {
   padding: 0.5rem;
   background: #007bff;
+  color: white;
 }
 #product-list, #cart {
   margin: 10px 2px;
 }
 #product {
+  background-color: rgb(48, 47, 47);
   width: 115px;
   height: auto;
-  border: 1px solid #ddd;
+  border: 1px solid #131212;
   padding: 10px;
   margin: 2px;
   display: inline-block;
@@ -32,7 +34,8 @@ button {
   color: white;
 }
 #cart-item {
-  border: 1px solid #ddd;
+  background-color: rgb(48, 47, 47);
+  border: 1px solid #131212;
   padding: 10px;
   margin: 5px;
 }
